@@ -38,7 +38,7 @@ border-color: rgb(7, 255, 234);
 }
 
 .company-name {
-    font-family: 'Audiowide', cursive;
+    font-family: Google Sans Code;
     color: rgba(12, 12, 12, 0.937);
     font-size: 2.5rem;
     display: flex;
@@ -141,6 +141,7 @@ input:focus {
 input::placeholder {
     font-family: Google Sans Code;
     font-size: 1.4rem;
+    color: black;
 }
 
 .formulario:hover {
