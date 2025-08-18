@@ -84,6 +84,7 @@ a {
     transition: 1s;
     font-weight: bolder;
     box-shadow: 0 2px 1px 1px rgba(2, 200, 255, 0.2);
+    cursor: pointer;
 }
 
 a:hover {

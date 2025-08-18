@@ -83,6 +83,7 @@ a {
     border-style: solid;
     transition: 1s;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 a:hover {
