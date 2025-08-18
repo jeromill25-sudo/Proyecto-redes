@@ -22,7 +22,7 @@ main {
     font-size: 2rem;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(120deg, rgba(9, 195, 34, 0.493), rgba(0, 247, 255, 0.661));
+    background: linear-gradient(200deg, rgba(255, 255, 255, 0.493), rgba(0, 247, 255, 0.352));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ border-color: rgb(7, 255, 234);
 
 .company-name {
     font-family: Google Sans Code;
-    color: rgba(12, 12, 12, 0.937);
+    color: rgb(10, 2, 175);
     font-size: 2.5rem;
     display: flex;
     margin-left: auto;
@@ -71,19 +71,19 @@ a {
     font-family: Google Sans Code;
     text-decoration: none;
     color: black;
-    background-color: aqua;
+    background:transparent;
     border-radius: 2rem;
     width: 100%;
     min-width: 24rem;
     min-height: 4rem;
     align-items: center;
     justify-content: center;
-    border-color: rgba(0, 255, 0, 0.788);
+    border-color: rgba(0, 255, 208, 0.788);
     border-width: 0.2rem;
     border-style: solid;
     transition: 1s;
     font-weight: bolder;
-    box-shadow: 0 2px 1px 1px rgba(28, 255, 2, 0.2);
+    box-shadow: 0 2px 1px 1px rgba(2, 200, 255, 0.2);
 }
 
 a:hover {
@@ -161,7 +161,7 @@ input::placeholder {
 .bloque::after,
 .bloque::before {
     content: '';
-    background: conic-gradient(from var(--angulo), rgba(233, 238, 233, 0.38), rgb(47, 255, 0), rgb(1, 235, 1));
+    background: conic-gradient(from var(--angulo), rgba(233, 238, 233, 0.38), rgb(17, 0, 255), rgb(1, 138, 235));
     height: 100%;
     width: 100%;
     position: absolute;
@@ -194,8 +194,8 @@ input::placeholder {
     background: transparent;
     width: 10rem;
     border-radius: 2rem;
-    box-shadow: 0 2px 1px 1px rgba(27, 255, 2, 0.477);
-    border-color: rgba(27, 255, 2, 0.555);
+    box-shadow:  10px 8px 13px rgba(2, 221, 255, 0.477);
+    border-color: rgba(2, 255, 238, 0.66);
     margin-top: 2rem;
     transition: 1s;
     font-weight: bold;
@@ -258,7 +258,7 @@ input::placeholder {
     color: rgba(12, 12, 12, 0.937);
     font-size: 4rem;
     display: flex;
-    text-shadow: 5px 2px 3px  rgba(2, 255, 15, 0.615); 
+    text-shadow: 5px 2px 3px  rgba(2, 247, 255, 0.615); 
     
     }
     a{
