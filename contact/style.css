@@ -168,14 +168,14 @@ transition: 1s;
     }
 
     .acontactos {
-        width: 40%;
+        width: 30%;
         height: 12rem;
         margin: 1rem;
         font-size: 1.8rem;
     }
 
     .acontactos:hover {
-        width: 42%;
+        width: 27%;
         font-size: 2rem;
     }
 

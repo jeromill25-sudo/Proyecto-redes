@@ -115,6 +115,12 @@ box-shadow: 0 2px 1px 1px rgba(2, 255, 251, 0.571);
     transition: 2s;
     align-items: center;
     }
+    .img1{
+        width: 20rem;
+    }
+.img2{
+    width: 20rem;
+}
 
 .parrafo{
     margin: 1rem;
