@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventario RFID - Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    
+    <section class="top">
+        <a href="index.html" class="a1">Panel de Inventario</a>
+        <a href="../inventario2/idex.html" class="a2">Detalle de Inventario</a>
+    </section>
+    <div class="bloque">
+        <h2>Inventario Principal</h2>
+
+        <!-- Formulario -->
+        <label for="nombre">Nombre del Producto:</label>
+        <input type="text" id="nombre" class="formulario" placeholder="Ej: Laptop Dell">
+
+        <label for="codigo">Código RFID:</label>
+        <input type="text" id="codigo" class="formulario" placeholder="Ej: RFID-12345">
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" class="formulario" placeholder="Ej: 10">
+
+        <button class="into" onclick="agregarProducto()">Agregar Producto</button>
+        <p id="error" class="error"></p>
+
+        <!-- Tabla -->
+        <table id="tablaInventario">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Código RFID</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody id="tablaInventario">
+                <!-- Aquí se insertan los productos -->
+            </tbody>
+        </table>
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

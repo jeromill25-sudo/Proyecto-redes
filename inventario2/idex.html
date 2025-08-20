@@ -1,0 +1,92 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventario RFID Semanal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    
+    <section class="top">
+        <a href="../inventario/" class="a1">Panel de Inventario</a>
+        <a href="idex.html" class="a2">Detalle de Inventario</a>
+    </section>
+
+    <div class="sections">
+
+        <!-- Inventario Inicial -->
+        <div class="bloque" id="inventario-inicial">
+            <h2>Inventario Inicial</h2>
+            <label for="nombre-inicial">Nombre:</label>
+            <input type="text" id="nombre-inicial" class="formulario" placeholder="Ej: Laptop Dell">
+            <label for="codigo-inicial">Código RFID:</label>
+            <input type="text" id="codigo-inicial" class="formulario" placeholder="Ej: RFID-12345">
+            <label for="cantidad-inicial">Cantidad:</label>
+            <input type="number" id="cantidad-inicial" class="formulario" placeholder="Ej: 10">
+            <button class="into" onclick="agregarProducto('inicial')">Agregar</button>
+            <p id="error-inicial" class="error"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Código RFID</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-inicial"></tbody>
+            </table>
+        </div>
+
+        <!-- Inventario Stock -->
+        <div class="bloque" id="inventario-stock">
+            <h2>Inventario Stock</h2>
+            <label for="nombre-stock">Nombre:</label>
+            <input type="text" id="nombre-stock" class="formulario" placeholder="Ej: Laptop Dell">
+            <label for="codigo-stock">Código RFID:</label>
+            <input type="text" id="codigo-stock" class="formulario" placeholder="Ej: RFID-12345">
+            <label for="cantidad-stock">Cantidad:</label>
+            <input type="number" id="cantidad-stock" class="formulario" placeholder="Ej: 10">
+            <button class="into" onclick="agregarProducto('stock')">Agregar</button>
+            <p id="error-stock" class="error"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Código RFID</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-stock"></tbody>
+            </table>
+        </div>
+
+        <!-- Inventario Final -->
+        <div class="bloque" id="inventario-final">
+            <h2>Inventario Final</h2>
+            <label for="nombre-final">Nombre:</label>
+            <input type="text" id="nombre-final" class="formulario" placeholder="Ej: Laptop Dell">
+            <label for="codigo-final">Código RFID:</label>
+            <input type="text" id="codigo-final" class="formulario" placeholder="Ej: RFID-12345">
+            <label for="cantidad-final">Cantidad:</label>
+            <input type="number" id="cantidad-final" class="formulario" placeholder="Ej: 10">
+            <button class="into" onclick="agregarProducto('final')">Agregar</button>
+            <p id="error-final" class="error"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Código RFID</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-final"></tbody>
+            </table>
+        </div>
+
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -109,9 +109,39 @@ a:hover {
     padding: 1rem;
     transition: 2s;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin: 1rem;
+}
+.into {
+    font-size: 1.5rem;
+    background: transparent;
+    width: 10rem;
+    border-radius: 2rem;
+    box-shadow: 0 2px 1px 1px rgb(2, 200, 255);
+    border-color: rgba(2, 238, 255, 0.555);
+    margin-top: 2rem;
+    transition: 1s;
+    font-weight: bold;
+    min-height: 2rem;
+}
 
+.into:hover {
+    font-size: 1.8rem;
+    width: 12rem;
+    transition: 1s;
+}
 h2{
     font-size: 2rem;
+}
+.error{
+    color: red;
+    font-weight: bold;
 }
 /*contorl del login*/
 .bloque {
@@ -190,24 +220,7 @@ input::placeholder {
     position: relative;
 }
 
-.into {
-    font-size: 1.5rem;
-    background: transparent;
-    width: 10rem;
-    border-radius: 2rem;
-    box-shadow: 0 2px 1px 1px rgb(2, 200, 255);
-    border-color: rgba(2, 238, 255, 0.555);
-    margin-top: 2rem;
-    transition: 1s;
-    font-weight: bold;
-    min-height: 2rem;
-}
 
-.into:hover {
-    font-size: 1.8rem;
-    width: 12rem;
-    transition: 1s;
-}
 
 /* ====== Media Queries ====== */
 
