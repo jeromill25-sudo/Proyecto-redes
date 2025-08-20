@@ -1,6 +1,6 @@
 // datos a evualuar
 const user = "cecomsa";
-const pass = "c3c0ms47548"
+const pass = "grupo1"
 
 document.getElementById("loginForm").addEventListener("submit", function (e){
     e.preventDefault();
