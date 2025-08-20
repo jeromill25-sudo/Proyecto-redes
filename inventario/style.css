@@ -82,7 +82,7 @@ a {
     border-radius: 2rem;
     background-color: rgba(0, 255, 255, 0.282);
     width: 35rem;
-    height: 50rem;
+    min-height: 30rem;
     overflow: scroll;
     
 }
