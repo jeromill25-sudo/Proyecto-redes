@@ -181,4 +181,7 @@ td[contenteditable="true"] {
     h1 {
         font-size: 4rem;
     }
+    .top{
+        width: 40rem;
+    }
 }
